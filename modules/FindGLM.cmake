@@ -14,7 +14,7 @@ if(GLM_INCLUDE_DIR)
     set(GLM_FOUND "YES")
 else(GLM_INCLUDE_DIR)
     set(GLM_FOUND "NO")
-endif(GLFW_INCLUDE_DIR)
+endif(GLM_INCLUDE_DIR)
 
 if(GLM_FOUND)
     message(STATUS "Found glm")
